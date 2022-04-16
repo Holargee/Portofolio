@@ -1,0 +1,82 @@
+body{
+				background-color:rgb(30,30,30);
+				color:white;
+				font-family:serif;
+}
+.img{
+      margin-top:20%;
+				width:1%;
+				height:0%;
+				margin-left:auto;
+				margin-right:auto;
+				border-radius:100%;
+				transition:3s;
+}
+.head{
+				background-color:rgba(10,10,10,0.5);
+				color:white;
+				width:auto;
+				margin-left:-8px;
+				margin-right:-8px;
+}
+.tit{
+      text-align:center;
+				font-size:60px;
+				margin:20px;
+				font-family:cursive;
+				position:relative;
+				left:-200%;
+				transition:2s;
+}
+.tit1{
+				text-align:center;
+}
+.hr{
+				width:40%;
+				float:left;
+}
+.ne{
+    color:rgb(180,160,94);
+}
+.nee{
+    color:rgb(180,160,94);
+    position:relative;
+				right:-400%;
+				overflow-x:hidden;		
+				transition:2s;
+}
+.hd{
+				background-color:rgba(10,10,10,0.5);
+				color:white;
+				text-align:center;
+				margin-left:-8px;
+				margin-right:-8px;
+				margin-bottom:-8px;
+}
+
+.skills{
+    background-color:grey;
+    width:100%;
+    line-height:250%;
+}
+.html{
+    background-color:#04AA6D;;
+    width:0%;
+    line-height:250%;
+    text-align:right;
+    transition:2s;
+}
+.css{
+    background-color:#2196f3;
+    width:0%;
+    line-height:250%;
+    text-align:right;
+    transition:2s;
+}
+.js{
+    background-color:#f44336;
+    width:0%;
+    line-height:250%;
+    text-align:right;
+    transition:2s;
+}
