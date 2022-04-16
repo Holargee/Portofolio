@@ -67,14 +67,14 @@ body{
     transition:2s;
 }
 .css{
-    background-color:#2196f3;
+    background-color:#2196f3;;
     width:0%;
     line-height:250%;
     text-align:right;
     transition:2s;
 }
 .js{
-    background-color:#f44336;
+    background-color:#f44336;;
     width:0%;
     line-height:250%;
     text-align:right;
