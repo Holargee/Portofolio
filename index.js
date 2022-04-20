@@ -1,3 +1,12 @@
+
+function opn(){
+				document.getElementById("bdy2").style.display = "none";
+				document.getElementById("bdy1").style.display = "block";
+}
+function cls(){
+				document.getElementById("bdy2").style.display = "block";
+				document.getElementById("bdy1").style.display = "none";
+}
 function hi(){
 document.getElementById("tit1").style.left="0%";document.getElementById("tit2").style.right="0%";document.getElementById("img").style.width="50%";document.getElementById("img").style.marginTop="0%";}
 function gee(){
@@ -5,7 +14,7 @@ var h = document.getElementById("html");
 var c = document.getElementById("css");
 var j = document.getElementById("js");
 				if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500 )
-{h.style.width="95%";c.style.width="90%";j.style.width="80%";}
+{h.style.width="90%";c.style.width="85%";j.style.width="80%";}
 }
 var i = 0;
 var f = 0;
@@ -21,16 +30,16 @@ function load() {
     var csss = setInterval(css,20);
     var jss = setInterval(js,20);
     function html() {
-      if (f >= 95)
+      if (f >= 90)
   { clearInterval(htmls); i = 0 } 
   else {f++;htmlv.innerHTML = f + "%";}}
-  function css(){
-  	if(cs >= 90)
-  	{clearInterval(csss);i = 0}
-  	else{cs++;cssv.innerHTML = cs + "%";}}
+  function css() {
+      if (cs >= 85)
+  { clearInterval(csss); i = 0 } 
+  else {cs++;cssv.innerHTML = cs + "%";}}
   	function js(){
  if(jv >= 80){clearInterval(jss);i = 0}
- else{jv++;jsv.innerHTML = jv + " %"}}
+ else{jv++;jsv.innerHTML = jv + "%"}}
 }
 }
 var j = 0;
@@ -67,3 +76,6 @@ function read(){
 		}
 	}
 }
+
+
+
