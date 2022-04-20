@@ -13,7 +13,7 @@ function gee(){
 var h = document.getElementById("html");
 var c = document.getElementById("css");
 var j = document.getElementById("js");
-				if(document.body.scrollTop > 400 || document.documentElement.scrollTop > 400 )
+				if(document.body.scrollTop > 370 || document.documentElement.scrollTop > 370 )
 {h.style.width="90%";c.style.width="85%";j.style.width="80%";}
 }
 var i = 0;
@@ -21,7 +21,7 @@ var f = 0;
 var cs = 0;
 var jv = 0;
 function load() {
-  if (i == 0 && f == 0 &&  document.body.scrollTop > 400 || document.documentElement.scrollTop > 400 ) {
+  if (i == 0 && f == 0 &&  document.body.scrollTop > 370 || document.documentElement.scrollTop > 370 ) {
     i = 1;
  var htmlv = document.getElementById("html");
  var cssv = document.getElementById("css");
