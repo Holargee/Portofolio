@@ -110,7 +110,7 @@ body{
 }
 .head{
 				background-color:rgba(10,10,10,0.5);
-				color:white;
+				color:white;white-space:nowrap;
 				width:auto;
 				margin-left:-2vw;
 				margin-right:-2vw;
