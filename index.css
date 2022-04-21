@@ -112,13 +112,13 @@ body{
 				background-color:rgba(10,10,10,0.5);
 				color:white;
 				width:auto;
-				margin-left:-8px;
-				margin-right:-8px;
+				margin-left:-2vw;
+				margin-right:-2vw;
 				
 				
 }
 .head > span{
-				margin-left:2.5%;
+				margin-left:3.5vw;
 }
 .tit{
       text-align:center;
