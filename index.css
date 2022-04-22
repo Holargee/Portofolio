@@ -110,9 +110,9 @@ body{
 }
 .head{
 				background-color:rgba(10,10,10,0.5);
-				color:white;
-				width:auto;
-				margin-left:-2vw;
+				color:white;position:fixed;
+				width:auto;font-size:4vw;
+				margin-left:-2vw;white-space:nowrap;
 				margin-right:-2vw;
 				
 				
