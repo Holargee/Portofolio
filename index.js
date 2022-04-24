@@ -1,14 +1,21 @@
 
 function opn(){
 				document.getElementById("bdy2").style.display = "none";
-				document.getElementById("bdy1").style.display = "block";
+				document.getElementById("bdy1").style.display = "block";document.getElementById("hom").style.color = "white";
+document.getElementById("abts").style.color = "white";
+document.getElementById("us").style.color = "rgb(180,160,95)";
+document.getElementById("hb").style.position = "fixed";
 }
 function cls(){
 				document.getElementById("bdy2").style.display = "block";
-				document.getElementById("bdy1").style.display = "none";
+				document.getElementById("bdy1").style.display = "none";document.getElementById("bdy1").style.display = "none";
+				document.getElementById("hom").style.color = "rgb(180,160,95)";
+document.getElementById("abts").style.color = "white";
+document.getElementById("us").style.color = "white";
+document.getElementById("hb").style.position = "relative";
 }
 function hi(){
-document.getElementById("tit1").style.left="0%";document.getElementById("tit2").style.right="0%";document.getElementById("img").style.width="50%";document.getElementById("img").style.marginTop="0%";}
+document.getElementById("tit1").style.left="0%";document.getElementById("tit2").style.right="0%";document.getElementById("img").style.width="50%";document.getElementById("img").style.marginTop="5vw";}
 function gee(){
 var h = document.getElementById("html");
 var c = document.getElementById("css");
@@ -76,6 +83,13 @@ function read(){
 		}
 	}
 }
-
+function swi1(){
+var a = document.getElementById("hom").style;
+var b= document.getElementById("abts").style;
+var c= document.getElementById("skis").style;		if(document.body.scrollTop > 300 || document.documentElement.scrollTop > 300 && document.body.scrollTop < 465 && document.documentElement.scrollTop < 465)
+				{a.color = "white";b.color="rgb(180,160,95)";c.color=" white"}
+else if(document.body.scrollTop > 470 || document.documentElement.scrollTop > 470)
+				{a.color = "white";c.color="rgb(180,160,95)";b.color=" white"}
+				else{a.color = "rgb(180,160,95)";b.color="white";c.color=" white"}}
 
 
