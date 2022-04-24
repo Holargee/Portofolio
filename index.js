@@ -1,14 +1,15 @@
 
 function opn(){
 				document.getElementById("bdy2").style.display = "none";
-				document.getElementById("bdy1").style.display = "block";document.getElementById("hom").style.color = "white";
+				document.getElementById("bdy1").style.display = "block";
+document.getElementById("hom").style.color = "white";
 document.getElementById("abts").style.color = "white";
 document.getElementById("us").style.color = "rgb(180,160,95)";
 document.getElementById("hb").style.position = "fixed";
 }
 function cls(){
 				document.getElementById("bdy2").style.display = "block";
-				document.getElementById("bdy1").style.display = "none";document.getElementById("bdy1").style.display = "none";
+				document.getElementById("bdy1").style.display = "none";
 				document.getElementById("hom").style.color = "rgb(180,160,95)";
 document.getElementById("abts").style.color = "white";
 document.getElementById("us").style.color = "white";
@@ -20,7 +21,7 @@ function gee(){
 var h = document.getElementById("html");
 var c = document.getElementById("css");
 var j = document.getElementById("js");
-				if(document.body.scrollTop > 370 || document.documentElement.scrollTop > 370 )
+				if(document.body.scrollTop > 350 || document.documentElement.scrollTop > 350 )
 {h.style.width="90%";c.style.width="85%";j.style.width="80%";}
 }
 var i = 0;
@@ -28,7 +29,7 @@ var f = 0;
 var cs = 0;
 var jv = 0;
 function load() {
-  if (i == 0 && f == 0 &&  document.body.scrollTop > 370 || document.documentElement.scrollTop > 370 ) {
+  if (i == 0 && f == 0 &&  document.body.scrollTop > 350 || document.documentElement.scrollTop > 350 ) {
     i = 1;
  var htmlv = document.getElementById("html");
  var cssv = document.getElementById("css");
@@ -90,6 +91,7 @@ var c= document.getElementById("skis").style;		if(document.body.scrollTop > 300 
 				{a.color = "white";b.color="rgb(180,160,95)";c.color=" white"}
 else if(document.body.scrollTop > 470 || document.documentElement.scrollTop > 470)
 				{a.color = "white";c.color="rgb(180,160,95)";b.color=" white"}
-				else{a.color = "rgb(180,160,95)";b.color="white";c.color=" white"}}
+				else{a.color = "rgb(180,160,95)";b.color="white";c.color=" white"}
+}
 
 
